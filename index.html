@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Címke — leírásgenerátor</title>
+<title>OpenAI Chat</title>
 <style>
   :root{
     --canvas:#EFEBE2;
@@ -306,7 +306,7 @@
 <div class="wrap">
 
   <header>
-    <div class="brand">Címke<span>.</span></div>
+    <div class="brand">OpenAI Chat<span>.</span></div>
     <div class="tagline">OpenAI Chat</div>
   </header>
 
@@ -315,7 +315,7 @@
     <textarea id="notes" placeholder="Kédezz tőlem"></textarea>
   </div>
 
-  <div class="section-label">03 — Generálás</div>
+  <div class="section-label">Küldés</div>
   <div class="cta-row">
     <button class="generate" id="genBtn">Generálás</button>
     <span class="status" id="statusText"></span>
@@ -339,7 +339,7 @@
 
 <script>
   
-const WORKER_URL = "https://ruha-leiro-worker.just-my-games-gb.workers.dev";
+const WORKER_URL = "https://fragrant-salad-2faf.just-my-games-gb.workers.dev";
 
 const genBtn = document.getElementById('genBtn');
 const statusText = document.getElementById('statusText');
